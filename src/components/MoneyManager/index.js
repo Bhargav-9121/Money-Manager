@@ -20,7 +20,7 @@ class MoneyManager extends Component {
     tranList: [],
     titleIn: '',
     amountIn: '',
-    selectOption: 'INCOME',
+    selectOption: transactionTypeOptions[0].optionId,
   }
 
   titleInput = event => {
@@ -40,11 +40,16 @@ class MoneyManager extends Component {
 
     const {titleIn, amountIn, selectOption} = this.state
 
+    const typeOption = transactionTypeOptions.find(
+      eachTransaction => eachTransaction.optionId === selectOption,
+    )
+    const {displayText} = typeOption
+
     const newTran = {
       id: uuidv4(),
       title: titleIn,
       amount: amountIn,
-      type: selectOption,
+      type: displayText,
     }
 
     this.setState(prevState => ({
@@ -68,7 +73,7 @@ class MoneyManager extends Component {
 
     tranList.forEach(eachTr => {
       const integerAmount = parseInt(eachTr.amount)
-      if (eachTr.type === 'INCOME') {
+      if (eachTr.type === 'Income') {
         income += integerAmount
       } else {
         expenses += integerAmount

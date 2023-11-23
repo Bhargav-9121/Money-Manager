@@ -1,0 +1,146 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.totalThing {
+  padding: 25px;
+}
+
+.headerDiv {
+  background-image: url('https://assets.ccbp.in/frontend/react-js/money-manager/money-manager-bg.png');
+  background-size: cover;
+  padding: 30px;
+  border-radius: 20px;
+  color: #1e293b;
+}
+
+.headerHead {
+  margin-bottom: 10px;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-size: 35px;
+}
+
+span {
+  color: #0b69ff;
+}
+
+.headerPara {
+  margin-top: 20px;
+  margin-bottom: 10px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 23px;
+}
+
+.monDetUl {
+  margin-top: 30px;
+  list-style-type: none;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.addTransDiv {
+  margin-top: 25px;
+  height: 350px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+  color: #576170;
+  border-style: solid;
+  border-radius: 10px;
+  border-color: silver;
+  border-width: 2px;
+  padding: 20px;
+}
+
+.footerPara {
+  font-weight: bolder;
+  color: #334155;
+  margin-bottom: 10px;
+  font-size: 20px;
+}
+
+label {
+  font-weight: 500;
+  color: #7e858e;
+}
+
+input {
+  height: 35px;
+  width: 300px;
+  border-radius: 5px;
+  border-style: solid;
+  border-color: silver;
+  padding: 5px;
+  border-width: 1px;
+}
+
+select {
+  height: 35px;
+  width: 300px;
+  border-radius: 5px;
+  border-style: solid;
+  border-color: silver;
+  padding: 5px;
+  font-size: 15px;
+}
+
+.footerDiv {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.addBtn {
+  color: white;
+  background-color: #0b69ff;
+  height: 30px;
+  width: 80px;
+  margin-top: 10px;
+  border: 0;
+  border-radius: 5px;
+  font-size: 15px;
+}
+
+.lastDiv {
+  border-style: solid;
+  border-width: 2px;
+  border-color: silver;
+  padding: 20px;
+  height: 350px;
+  border-radius: 10px;
+  margin-top: 25px;
+}
+
+.topicDiv {
+  border-style: solid;
+  border-width: 1px;
+  border-color: silver;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  width: 700px;
+  margin-top: 25px;
+  height: 45px;
+}
+
+.tPara {
+  width: 225px;
+  margin-left: 25px;
+}
+
+.aPara {
+  width: 150px;
+  margin-right: 30px;
+}
+
+.typePara {
+  width: 150px;
+}
+
+ul {
+  list-style-type: none;
+}

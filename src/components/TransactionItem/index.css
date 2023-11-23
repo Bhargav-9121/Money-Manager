@@ -1,0 +1,35 @@
+.transactionItemList {
+  border-style: solid;
+  border-top: 0;
+  border-width: 1px;
+  border-color: silver;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 700px;
+  height: 40px;
+}
+
+.titlePara {
+  margin-left: 25px;
+  width: 250px;
+}
+
+.amountPara {
+  width: 200px;
+}
+
+.typeThingPara {
+  width: 250px;
+}
+
+.delImg {
+  height: 20px;
+}
+
+.delBtn {
+  margin-right: 20px;
+  border: 0;
+  background: transparent;
+  margin-top: 5px;
+}

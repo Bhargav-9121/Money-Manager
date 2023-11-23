@@ -1,0 +1,32 @@
+.monDetImg {
+  height: 75px;
+  margin-right: 20px;
+}
+
+.monDetBox {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-style: solid;
+  padding: 15px 30px 15px 30px;
+  border-radius: 10px;
+}
+
+.pricePara {
+  font-size: 25px;
+}
+
+.box1 {
+  background-color: #ecfccb;
+  border-color: #84cc16;
+}
+
+.box2 {
+  background-color: #cffafe;
+  border-color: #06b6d4;
+}
+
+.box3 {
+  background-color: #ede9fe;
+  border-color: #7c3aed;
+}

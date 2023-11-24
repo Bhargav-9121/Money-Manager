@@ -1,4 +1,3 @@
-In this project, let's build a **Money Manager** app by applying the concepts we have learned till now.
 
 ### Refer to the image below:
 
@@ -7,25 +6,6 @@ In this project, let's build a **Money Manager** app by applying the concepts we
     <img src="https://assets.ccbp.in/frontend/content/react-js/money-manager-output.gif" alt="money manager output gif" style="max-width:70%;box-shadow:0 2.8px 2.2px rgba(0, 0, 0, 0.12)">
 </div>
 <br/>
-
-### Design Files
-
-<details>
-<summary>Click to view</summary>
-
-- [Extra Small (Size < 576px) and Small (Size >= 576px)](https://assets.ccbp.in/frontend/content/react-js/money-manager-sm-output-v2.png)
-- [Medium (Size >= 768px), Large (Size >= 992px) and Extra Large (Size >= 1200px)](https://assets.ccbp.in/frontend/content/react-js/money-manager-lg-output.png)
-
-</details>
-
-### Set Up Instructions
-
-<details>
-<summary>Click to view</summary>
-
-- Download dependencies by running `npm install`
-- Start up the app using `npm start`
-</details>
 
 ### Completion Instructions
 
@@ -77,37 +57,6 @@ The app must have the following functionalities
 
 </details>
 
-<details>
-<summary>Implementation Files</summary>
-<br/>
-
-Use these files to complete the implementation:
-
-- `src/App.js`
-- `src/components/MoneyManager/index.js`
-- `src/components/MoneyManager/index.css`
-- `src/components/MoneyDetails/index.js`
-- `src/components/MoneyDetails/index.css`
-- `src/components/TransactionItem/index.js`
-- `src/components/TransactionItem/index.css`
-</details>
-
-### Important Note
-
-<details>
-<summary>Click to view</summary>
-
-<br/>
-
-**The following instructions are required for the tests to pass**
-
-- The Balance Amount should have the data-testid as **balanceAmount**
-- The Income Amount should have the data-testid as **incomeAmount**
-- The Expenses Amount should have the data-testid as **expensesAmount**
-- The Delete button for each transaction should have the data-testid as **delete**
-
-</details>
-
 ### Resources
 
 <details>
@@ -142,17 +91,3 @@ Use these files to complete the implementation:
 <div style="background-color: #334155; width: 150px; padding: 10px; color: white">Hex: #334155</div>
 
 </details>
-
-<details>
-<summary>Font-families</summary>
-
-- Roboto
-
-</details>
-
-> ### _Things to Keep in Mind_
->
-> - All components you implement should go in the `src/components` directory.
-> - Don't change the component folder names as those are the files being imported into the tests.
-> - **Do not remove the pre-filled code**
-> - Want to quickly review some of the concepts you’ve been learning? Take a look at the Cheat Sheets.

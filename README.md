@@ -63,10 +63,10 @@ The app must have the following functionalities
 <summary>Image URLs</summary>
 
 - [https://assets.ccbp.in/frontend/react-js/money-manager/money-manager-bg.png](https://assets.ccbp.in/frontend/react-js/money-manager/money-manager-bg.png)
-- [https://assets.ccbp.in/frontend/react-js/money-manager/balance-image.png](https://assets.ccbp.in/frontend/react-js/money-manager/balance-image.png) alt should be **balance**
-- [https://assets.ccbp.in/frontend/react-js/money-manager/income-image.png](https://assets.ccbp.in/frontend/react-js/money-manager/income-image.png) alt should be **income**
-- [https://assets.ccbp.in/frontend/react-js/money-manager/expenses-image.png](https://assets.ccbp.in/frontend/react-js/money-manager/expenses-image.png) alt should be **expenses**
-- [https://assets.ccbp.in/frontend/react-js/money-manager/delete.png](https://assets.ccbp.in/frontend/react-js/money-manager/delete.png) alt should be **delete**
+- [https://assets.ccbp.in/frontend/react-js/money-manager/balance-image.png](https://assets.ccbp.in/frontend/react-js/money-manager/balance-image.png)
+- [https://assets.ccbp.in/frontend/react-js/money-manager/income-image.png](https://assets.ccbp.in/frontend/react-js/money-manager/income-image.png)
+- [https://assets.ccbp.in/frontend/react-js/money-manager/expenses-image.png](https://assets.ccbp.in/frontend/react-js/money-manager/expenses-image.png)
+- [https://assets.ccbp.in/frontend/react-js/money-manager/delete.png](https://assets.ccbp.in/frontend/react-js/money-manager/delete.png)
 
 </details>
 
